@@ -14,4 +14,4 @@ jobs:
     steps:
       - name: Hello world
         run: |
-          echo $ENVS
+          echo ${{ vars.ENVS }}
